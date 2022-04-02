@@ -24,13 +24,13 @@
 
 
     <script>
-        const X_PIXELS=20
-        const Y_PIXELS=20
+        const X_PIXELS=23
+        const Y_PIXELS=23
         const X_OFFSET=400
-        const Y_OFFSET=400
+        const Y_OFFSET=100
 
-        const X_IN_PLACE=337
-        const Y_IN_PLACE=160
+        const X_IN_PLACE=1791
+        const Y_IN_PLACE=793
 
 
         function getMousePos(canvas, evt) {
@@ -74,7 +74,7 @@
             bg.drawImage(img, 0, 0, img.width, img.height, 0, Y_OFFSET, w, h)
             drawGrid(0, Y_OFFSET, w, h + Y_OFFSET, bg)
         };
-        img.src = "./aaa.png";
+        img.src = "./Greece.png";
 
         function drawText(text, x, y){
             fg.font = '80px Sans-serif';
